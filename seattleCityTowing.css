@@ -1,0 +1,367 @@
+@viewport{
+  zoom: 1.0;
+  width: device-width;
+}
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd,
+q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt,
+dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot,
+thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark,
+audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: 100% 'Palotino Linotype, helvetica';
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu,
+nav, section {
+    display: block;
+}
+body {
+    line-height: 1.2;
+}
+ol {
+    padding-left: 1.4em;
+    list-style: decimal;
+}
+ul {
+    padding-left: 1.4em;
+    list-style: square;
+}
+
+body {
+  font-family: 'Palotino Linotype, sans-serif';
+  text-align: center;
+}
+  
+a {
+  text-decoration: none;
+}
+  
+footer {
+  color: red;
+  background-color: #000;
+  opacity: 0.8;
+  padding-top: 0.5%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+form {  
+  opacity: 0.8;
+  color: black;
+  padding-top: 8%;
+  text-align: center;
+}
+
+label {
+  text-align:center;
+  font-size: 1.7rem;
+  color:black;
+  font-weight:bold; 
+}
+
+input[type="text"], input[type="date"], input[type="time"], .resizeOption {
+  font-size: 1.1rem;
+  text-align: center;
+  text-align-last:center
+}
+
+input[type="submit"] {
+  font-size: 2rem;
+  font-family: 'Palotino Linotype';
+  border: solid black;
+  border-radius: 20px / 10px;
+}
+
+input[type="submit"]:hover {
+  background: red;
+  color: white;
+  border: solid white;
+}
+
+input:focus, textarea:focus { 
+  outline: none !important; 
+  border-color: red; 
+  box-shadow: 0px 1px 1px red; 
+  font-family: 'Palotino Linotype';
+}
+
+select:focus {
+  outline-color: red;
+}
+  
+a:link { 
+  color: red;
+}
+  
+a:visited {
+  color: red;
+}
+
+.navbar {
+  width: 100%;
+  height: 65px;
+  position: fixed;
+  background-color: #000;
+  opacity: 0.8;
+  z-index: 1;
+}
+
+#home:target, #services:target, #contact:target, #home:active, #services:active, #contact:active {
+  font-size: 1.1em;
+  color: white;
+  padding: 3%;
+  border-bottom: dashed white;
+  border-radius: 2px;
+  outline: none;
+}
+
+#ss-form {
+  margin: 0 4% 0 0;
+}
+
+#ss-submit:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+.nav-spacing {
+  display: inline-block;
+  padding: 0 6% 0 9%;
+  font-size: 140%;
+  line-height: 300%;
+}
+
+.siteHeader h1 {
+  display: none;
+}
+
+.logo {
+  max-width: 50%;
+  padding-right: 5%;
+  margin-top: -2%;
+}
+
+.sectionpane { 
+  height: 100vh;
+  width: 100vw; 
+  position: relative; 
+  overflow: hidden;
+}
+
+.image-props::after {
+  height: 100vh;
+  width: 100vw; 
+  content: "";
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.6;
+  overflow: hidden;
+}
+
+.firstsec::after {
+  background: url("assets/space-needle-old.jpg"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.secondsec::after {
+  background: url("assets/down-town-street.jpg"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.thirdsec::after {
+  background: url("assets/junk-truck.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.first-sec-paragraphs {
+  background-color: white;
+  padding: 1% 4%;
+  border-radius: 20px / 10px;
+  opacity: 0.7;
+  margin: 0% 8% 0 8%;
+  font-size: 1.2rem;
+  line-height: 130%;
+}
+
+.contact-now {
+  background-color: white;
+  padding: 1%;
+  border-radius: 20px / 10px;
+  opacity: 0.7;
+  margin-top: 1%;
+  font-size: 130%;
+  display: inline-block;
+  margin-bottom: 2%;
+}
+
+.contact-now-number {
+  font-size: 130%;
+  text-decoration: underline;
+}
+
+.desc-two {
+  margin-top: 1%; 
+}
+
+.service-list-background {
+  background-color: white;
+  width: 60%;
+  opacity: 0.8;
+  margin: 12% auto;
+  border-radius: 20px / 10px;
+}
+
+ul.serviceList {
+  display: inline-block;
+}
+
+.serviceList li {
+  margin: 5% auto;
+  font-size: 150%;
+  list-style-type: none;
+}
+
+.icons {
+  height: 25%;
+  width: 35%;
+  vertical-align: text-bottom;
+}
+
+.imagePlacement {
+  display: inline-block;
+  height: 100%;
+  margin-left: -40%;
+}
+
+input.straighten {
+  text-align: center;
+  display: inline-block;
+  margin-top: 1%;
+  background-color: white; 
+  opacity: 1;
+}
+
+@media only screen and (max-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3){
+  body {
+    font-size: 12px;
+  }
+
+  label {
+    text-align:center;
+    font-size: 1.5rem;
+    color:black;
+    font-weight:bold; 
+  }
+
+  #navbar {
+    width: 100%;
+    height: 50px;
+    background-color: #000;
+    opacity: 0.8;
+    z-index: 1;
+    margin: 0px 0px 45px 0px;
+    }
+    
+  #ss-form {
+    margin: 20% 4% 0 0;
+  }
+
+  .nav-spacing {
+    padding: 2% 4%;
+    font-size: 150%;
+    margin-left: 1%;
+  }    
+
+  .logo {
+    max-width: 90%;
+    margin-top: 7%;
+    margin-right: 15%;
+    border-radius: 50%;
+  }   
+
+  .first-sec-paragraphs {
+    background-color: white;
+    width: 100%;
+    padding: 2% 0% 0% 0%;
+    margin: 5% 0% 0% 0%;
+    border-radius: 20px / 10px;
+    opacity: 0.7; 
+    font-size: 1rem;
+    line-height: 130%;
+  }
+
+  .desc-one {
+    font-size: 120%;
+    padding: 2%;
+  }
+    
+  .desc-two {
+    font-size: 120%;  
+    margin-top: 3%; 
+  }   
+
+  .contact-now {
+    margin-top: 5%;
+    font-size: 140%;
+  }
+    
+  .contact-now-number {
+    font-size: 115%;
+  }
+
+  .service-list-background {
+    background-color: white;
+    width: 100%;
+    opacity: 0.8;
+    margin: 35% auto;
+    border-radius: 7%;
+  }
+  
+  .serviceList {
+    display: inline-block;
+  }
+  
+  .serviceList li {
+    margin-top:  10% auto;
+    font-size: 170%;
+    background-color: white;
+  } 
+}
+
+
+
