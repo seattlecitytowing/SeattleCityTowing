@@ -107,7 +107,7 @@ a:visited {
   z-index: 1000;
 }
 
-#home:target, #services:target, #contact:target, #home:active, #services:active, #contact:active {
+#home:target, #services:target, #contact:target {
   font-size: 1.1em;
   color: white;
   padding: 3%;
