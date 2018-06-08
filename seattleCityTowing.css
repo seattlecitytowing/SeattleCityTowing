@@ -63,7 +63,7 @@ form {
 
 label {
   text-align:center;
-  font-size: 1rem;
+  font-size: 1.6rem;
   color:black;
   font-weight:bold; 
 }
@@ -316,7 +316,7 @@ and (orientation: portrait) {
     }
     
   #ss-form {
-    margin: 20% 4% 0 0;
+    margin: 10% 4% 0 0;
   }
 
   .nav-spacing {
