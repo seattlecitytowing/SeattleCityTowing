@@ -274,79 +274,12 @@ and (max-device-width: 900px)
 and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: portrait) { 
 
-  body {
-    font-size: 12px;
-  }
-
-  label {
-    text-align:center;
-    font-size: 1.0rem;
-    color:black;
-    font-weight:bold; 
-  }
-
-  input[type="text"], input[type="date"], input[type="time"], .resizeOption {
-    font-size: 1rem;
-  }
-  
-  input[type="submit"] {
-    font-size: 1.6rem;
-  }
-
-  #ss-form {
-    margin: 10% 4% 0 0;
-  }
 
   .nav-spacing {
     padding: 2% 4%;
     font-size: 150%;
     margin-left: 1%;
   } 
-    
-  .logo {
-    max-width: 90%;
-    margin-top: 5%;
-    margin-right: 15%;
-    border-radius: 50%;
-  }   
-
-  .first-sec-paragraphs {
-    font-size: 1rem;
-  }
-
-  .desc-one {
-    padding: 2%;
-  }
-    
-  .desc-two { 
-    margin-top: 3%; 
-  }   
-
-  .contact-now {
-    margin-top: 5%;
-    font-size: 140%;
-  }
-    
-  .contact-now-number {
-    font-size: 115%;
-  }
-
-  .service-list-background {
-    background-color: white;
-    width: 100%;
-    opacity: 0.8;
-    margin: 35% auto;
-    border-radius: 7%;
-  }
   
-  .serviceList {
-    display: inline-block;
-  }
-  
-  .serviceList li {
-    margin-top:  10% auto;
-    font-size: 170%;
-    background-color: white;
-  } 
-}
+} 
 
