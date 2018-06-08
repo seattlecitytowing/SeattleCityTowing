@@ -293,15 +293,17 @@ and (orientation: portrait) {
     font-size: 1.6rem;
   }
 
+  #navbar {
+    height: 50px;
+    background-color: #000;
+    opacity: 0.8;
+    z-index: 1;
+    margin: 0px 0px 45px 0px;
+    }
+
   #ss-form {
     margin: 10% 4% 0 0;
   }
-
-  .nav-spacing {
-    padding: 2% 4%;
-    font-size: 150%;
-    margin-left: 1%;
-  } 
     
   .logo {
     max-width: 90%;
