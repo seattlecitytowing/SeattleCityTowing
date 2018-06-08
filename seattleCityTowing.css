@@ -275,11 +275,7 @@ and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: portrait) { 
 
 
-  .nav-spacing {
-    padding: 2% 4%;
-    font-size: 150%;
-    margin-left: 1%;
-  } 
+
   
 } 
 
