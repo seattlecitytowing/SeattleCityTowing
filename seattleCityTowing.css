@@ -296,6 +296,12 @@ and (orientation: portrait) {
   #ss-form {
     margin: 10% 4% 0 0;
   }
+
+  .nav-spacing {
+    padding: 2% 4%;
+    font-size: 150%;
+    margin-left: 1%;
+  } 
     
   .logo {
     max-width: 90%;
