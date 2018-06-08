@@ -293,12 +293,6 @@ and (orientation: portrait) {
     font-size: 1.6rem;
   }
 
-  #navbar {
-    background-color: #000;
-    opacity: 0.8;
-    z-index: 1;
-    }
-
   #ss-form {
     margin: 10% 4% 0 0;
   }
