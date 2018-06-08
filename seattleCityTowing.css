@@ -101,6 +101,7 @@ a:visited {
 .navbar {
   width: 100%;
   top: 0;
+  overflow: hidden;
   height: 65px;
   position: fixed;
   background-color: #000;
