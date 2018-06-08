@@ -112,7 +112,7 @@ a:visited {
   position: fixed;
   background-color: #000;
   opacity: 0.8;
-  z-index: 1;
+  z-index: 1000;
 }
 
 #home:target, #services:target, #contact:target, #home:active, #services:active, #contact:active {
@@ -255,17 +255,18 @@ ul.serviceList {
   list-style-type: none;
 }
 
+.imagePlacement {
+  display: inline-block;
+  height: 100%;
+  margin-left: -40%;
+}
+
 .icons {
   height: 25%;
   width: 35%;
   vertical-align: text-bottom;
 }
 
-.imagePlacement {
-  display: inline-block;
-  height: 100%;
-  margin-left: -40%;
-}
 
 input.straighten {
   text-align: center;
