@@ -103,7 +103,7 @@ a:visited {
   position: fixed;
   background-color: #000;
   opacity: 0.8;
-  z-index: 1000;
+  z-index: 999;
 }
 
 .nav-spacing {
@@ -111,6 +111,7 @@ a:visited {
   padding: 0 6% 0 9%;
   font-size: 140%;
   line-height: 300%;
+  z-index: 1000;
 }
 
 #home:target, #services:target, #contact:target {
