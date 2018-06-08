@@ -288,9 +288,22 @@ and (orientation: portrait) {
 
   label {
     text-align:center;
-    font-size: 1.1rem;
+    font-size: 1.0rem;
     color:black;
     font-weight:bold; 
+  }
+
+  input[type="text"], input[type="date"], input[type="time"], .resizeOption {
+    font-size: 1rem;
+  }
+  
+  input[type="submit"] {
+    font-size: 1.6rem;
+  }
+
+  .first-sec-paragraphs {
+    font-size: 1.1rem;
+    line-height: 125%;
   }
 
   #navbar {
