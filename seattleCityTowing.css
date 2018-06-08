@@ -294,7 +294,6 @@ and (orientation: portrait) {
   }
 
   #navbar {
-    height: 50px;
     background-color: #000;
     opacity: 0.8;
     z-index: 1;
