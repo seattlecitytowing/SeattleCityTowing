@@ -98,7 +98,15 @@ a:visited {
   color: red;
 }
 
-
+.navbar {
+  width: 100%;
+  top: 0;
+  height: 65px;
+  position: fixed;
+  background-color: #000;
+  opacity: 0.8;
+  z-index: 1000;
+}
 
 .nav-spacing {
   display: inline-block;
