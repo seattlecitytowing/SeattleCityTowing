@@ -297,7 +297,11 @@ and (orientation: portrait) {
   }
 
   #ss-form {
-    margin: 10% 4% 0 0;
+    margin: 15% 4% 0 0;
+  }
+  
+  .navbar {
+    height: 40px;
   }
 
   .nav-spacing {
