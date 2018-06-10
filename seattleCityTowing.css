@@ -101,10 +101,13 @@ a:visited {
   margin: 3% auto;
   width: 100%;
   font-size: 1.6em;
-  color: white;
   border-bottom: 2px dashed white; 
   outline: none;
 } 
+
+#home:target, #services:target, #contact:target {
+  color: white;
+}
 
 .navbar {
   width: 100%;
